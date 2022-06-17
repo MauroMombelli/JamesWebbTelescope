@@ -1,10 +1,16 @@
 # JamesWebbTelescope
 OpenSCAD files to dinamically generate 2d or 3d files of the mirror of the JWT, to print or cut.
 
+![Final result](photo/final.jpg "Final result")
+
 # Quality
 
 It works. Barely. Code horror ahead. Still, lot of fun. 
 I am not resposable for 3d printed nest, laser off eyes or calculation mistakes; measure twice, cut once.
+
+Generic acrylic goldern mirror, a few euros a pack of many, had been used and looks great, but scract easy, i suggest to use a cloth to protect them while working
+
+![Mirror deltail](photo/details.jpg "Mirror detail")
 
 ## User variables:
 
@@ -22,10 +28,13 @@ it draw all internal and external mirros, along with the base plate
 
 comment/decoment projection() to be able to project the 3d drawing into 2d; 2d can be used for expost as SVG for laser cut, while 3d can be sliced.
 
-## Diveder.scad
+## Divider.scad
 
 It draw subtraction between the base plate and the mirrors.
 Used to print/cut the guide to help glue the mirror in the correct position.
+
+Alignment of the mirrors using the carboard guide; notice how the side of the guide are taped to the base, to help centering and avoid slide
+![Carboard alignment example](photo/gluing.jpg "Carboard alignment example")
 
 ## PlateMirrors.scad
 
